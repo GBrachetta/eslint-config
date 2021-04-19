@@ -115,6 +115,14 @@ module.exports = {
     'jsx-a11y/no-onchange': 0,
     'jsx-a11y/no-noninteractive-element-interactions': 0,
     'jsx-a11y/click-events-have-key-events': 0,
-    'camelcase': 1
+    'camelcase': 1,
+    "padding-line-between-statements": [
+      2,
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return'
+      }
+    ],
   },
 };
