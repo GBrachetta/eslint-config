@@ -1,6 +1,6 @@
 # @gbrachetta/eslint-config
 
-ESLint configuration for a React-based Project (Next.js, Gatsby, etc). Easy to install and configure, it follows the best code standards from airbnb and uses prettier configuration on code format. Integrated with my [prettier configuration](https://github.com/gbrachetta/prettier-config) configuration.
+ESLint configuration for a React-based Project (Next.js, Gatsby, etc). Easy to install and configure, it follows the best code standards from airbnb and uses prettier configuration on code format. Integrated with my [prettier configuration](https://github.com/gbrachetta/prettier-config).
 
 ## Purpose
 
@@ -56,7 +56,7 @@ To configure ESLinter and Prettier you can add to your `package.json`
 
 ```json
 "eslintConfig": {
-  "extends": "@gbrachetta/eslint-config",
+  "extends": "@gbrachetta/eslint-config"
 },
 "prettier": "@gbrachetta/prettier-config"
 ```
