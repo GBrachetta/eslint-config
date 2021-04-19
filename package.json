@@ -1,6 +1,6 @@
 {
   "name": "@gbrachetta/eslint-config",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "ESLint configuration for React-based projects based on airbnb and Prettier configs",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
     "react",
     "hooks",
     "react-hooks",
-    "gbrachetta"
+    "gbrachetta",
+    "guillermo brachetta"
   ],
   "author": "Guillermo Brachetta",
   "license": "MIT",

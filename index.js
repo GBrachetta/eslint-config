@@ -44,7 +44,7 @@ module.exports = {
         groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
         alphabetize: {
-          order: 'asc',
+          order: 'ignore',
           caseInsensitive: true,
         },
       },
@@ -124,7 +124,7 @@ module.exports = {
       },
       {
         blankLine: 'always',
-        prev: ['case', 'default', 'directive', 'const', 'let'],
+        prev: ['case', 'default', 'directive', 'const', 'let', 'block-like'],
         next: '*'
       },
       {
