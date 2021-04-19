@@ -61,14 +61,14 @@ To configure ESLinter and Prettier you can add to your `package.json`
 "prettier": "@gbrachetta/prettier-config"
 ```
 
-Or create a `.eslintrc.json` and `.prettierrc.json` files and add `extends: "@gbrachetta/react"` and `"@gbrachetta/prettier-config"` respectivally. As an example:
+Or create a `.eslintrc.json` and `.prettierrc.json` files and add `extends: "@gbrachetta/eslint-config"` and `"@gbrachetta/prettier-config"` respectivally. As an example:
 
 ```json
 // .eslintrc.json
 {
   "extends": "@gbrachetta/eslint-config"
 }
-  // you can edit this configuration as usual, check ESLint docs
+// you can edit this configuration as usual, check ESLint docs
 ```
 
 ```json
