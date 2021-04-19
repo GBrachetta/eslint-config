@@ -97,7 +97,6 @@ module.exports = {
     'space-before-function-paren': 1,
     'space-before-blocks': 1,
     'arrow-spacing': 1,
-    'newline-before-return': 1,
     'newline-after-var': 1,
     'no-unused-vars': 1,
     'arrow-body-style': 0,
