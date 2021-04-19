@@ -67,13 +67,15 @@ Or create a `.eslintrc.json` and `.prettierrc.json` files and add `extends: "@gb
 // .eslintrc.json
 {
   "extends": "@gbrachetta/eslint-config"
-  // you can edit this configuration as usual, check ESLint docs
 }
+  // you can edit this configuration as usual, check ESLint docs
 ```
 
 ```json
 // .prettierrc.json
-"@gbrachetta/prettier-config"
+{
+  "@gbrachetta/prettier-config"
+}
 ```
 
 To use ESLint and Prettier you can add this scripts to your `package.json` file
@@ -88,7 +90,7 @@ To use ESLint and Prettier you can add this scripts to your `package.json` file
 
 ## Contributing
 
-How to [contribute](/CONTRIBUTING.MD) to this open source library
+How to [contribute](/CONTRIBUTING.md) to this open source library
 
 ## License
 
