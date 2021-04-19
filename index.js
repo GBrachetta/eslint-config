@@ -115,5 +115,6 @@ module.exports = {
     'jsx-a11y/no-onchange': 0,
     'jsx-a11y/no-noninteractive-element-interactions': 0,
     'jsx-a11y/click-events-have-key-events': 0,
+    'camelcase': 1
   },
 };
