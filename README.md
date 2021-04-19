@@ -14,13 +14,13 @@ This package integrates the Prettier rules with ESLint using my configuration. Y
 
 You need ESLint and Prettier installed as development dependencies on your project. You can install them by using **npm** or **yarn**.
 
-### NPM
-
 ```bash
 npm install --save-dev eslint prettier
+# or
+yarn add eslint prettier -D
 ```
 
-Install all peer dependencies of our configuration, these can be listed by the command:
+Install all peer dependencies of my configuration, these can be listed with the command:
 
 ```bash
 npm info "@gbrachetta/eslint-config@latest" peerDependencies
@@ -32,27 +32,9 @@ Install dependencies by:
 npx install-peerdeps --dev @gbrachetta/eslint-config
 ```
 
-### YARN
-
-```bash
-yarn add eslint prettier -D
-```
-
-Install the peer dependencies tool, by running:
-
-```bash
-yarn global add install-peerdeps
-```
-
-and after that run the following command to install the project's config:
-
-```bash
-install-peerdeps @gbrachetta/eslint-config
-```
-
 ## How to use
 
-To configure ESLinter and Prettier you can add to your `package.json`
+To configure ESLint and Prettier you can add to your `package.json`
 
 ```json
 "eslintConfig": {
@@ -61,7 +43,7 @@ To configure ESLinter and Prettier you can add to your `package.json`
 "prettier": "@gbrachetta/prettier-config"
 ```
 
-Or create a `.eslintrc.json` and `.prettierrc.json` files and add `extends: "@gbrachetta/eslint-config"` and `"@gbrachetta/prettier-config"` respectivally. As an example:
+If you need to override or extend the settings, you can create a `.eslintrc.json` and `.prettierrc.json` files and add `extends: "@gbrachetta/eslint-config"` and `"@gbrachetta/prettier-config"` respectivally. As an example:
 
 ```json
 // .eslintrc.json
@@ -78,7 +60,7 @@ Or create a `.eslintrc.json` and `.prettierrc.json` files and add `extends: "@gb
 }
 ```
 
-To use ESLint and Prettier you can add this scripts to your `package.json` file
+To use ESLint and Prettier from the terminal, add these scripts to your `package.json` file
 
 ```json
 {
