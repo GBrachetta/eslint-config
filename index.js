@@ -116,11 +116,21 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 0,
     'camelcase': 1,
     "padding-line-between-statements": [
-      2,
+      1,
       {
         blankLine: 'always',
         prev: '*',
-        next: 'return'
+        next: ['return', 'export', 'function', 'block-like']
+      },
+      {
+        blankLine: 'always',
+        prev: ['case', 'default', 'directive', 'const', 'let'],
+        next: '*'
+      },
+      {
+        blankLine: 'any',
+        prev: ['const', 'let'],
+        next: ['const', 'let']
       }
     ],
   },
