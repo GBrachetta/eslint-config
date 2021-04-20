@@ -109,7 +109,7 @@ module.exports = {
     'react/prop-types': 1,
     'react/display-name': 1,
     'react/forbid-prop-types': 0,
-    'react/button-has-type': 0,
+    'react/button-has-type': 1,
     'jsx-a11y/label-has-associated-control': 0,
     'jsx-a11y/no-onchange': 0,
     'jsx-a11y/no-noninteractive-element-interactions': 0,
