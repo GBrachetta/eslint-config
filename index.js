@@ -84,7 +84,7 @@ module.exports = {
     'react/sort-comp': 0,
     'react/jsx-closing-tag-location': 0,
     'react/jsx-first-prop-new-line': [2, 'multiline'],
-    'react/jsx-props-no-spreading': 1,
+    'react/jsx-props-no-spreading': [1, {html: 'ignore'}],
     'react/jsx-no-target-blank': 1,
     'react/jsx-uses-vars': 2,
     'jsx-a11y/aria-props': 2,
@@ -97,7 +97,6 @@ module.exports = {
     'space-before-function-paren': 1,
     'space-before-blocks': 1,
     'arrow-spacing': 1,
-    'newline-after-var': 1,
     'no-unused-vars': 1,
     'arrow-body-style': 0,
     'no-restricted-syntax': 1,
@@ -129,8 +128,13 @@ module.exports = {
       },
       {
         blankLine: 'any',
-        prev: ['const', 'let'],
-        next: ['const', 'let']
+        prev: ['let'],
+        next: ['let']
+      },
+      {
+        blankLine: 'any',
+        prev: ['const'],
+        next: ['const']
       }
     ],
   },
