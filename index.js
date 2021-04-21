@@ -120,6 +120,7 @@ module.exports = {
     'react/jsx-no-target-blank': 1,
     'react/jsx-props-no-spreading': [1, {html: 'ignore'}],
     'react/jsx-uses-vars': 2,
+    'react/no-array-index-key': 1,
     'react/no-unescaped-entities': 0,
     'react/prop-types': 1,
     'react/react-in-jsx-scope': 0,
