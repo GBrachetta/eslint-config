@@ -30,7 +30,7 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'sort-imports-es6-autofix'],
+  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'simple-import-sort'],
   settings: {
     react: {
       version: 'detect',
@@ -127,11 +127,17 @@ module.exports = {
     'react/require-default-props': 1,
     'react/self-closing-comp': 1,
     'react/sort-comp': 0,
-    "sort-imports-es6-autofix/sort-imports-es6": [1, {
-      "ignoreCase": false,
-      "ignoreMemberSort": false,
-      "memberSyntaxSortOrder": ['all', 'multiple', 'single', 'none']
-    }],
+    'simple-import-sort/imports': 1,
+    'sort-imports': [
+      'warn',
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: false,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['all', 'multiple', 'single', 'none'],
+        allowSeparatedGroups: true,
+      },
+    ],
     'space-before-blocks': 1,
     'space-before-function-paren': 1,
     'spaced-comment': [1, "always"],
