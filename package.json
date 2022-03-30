@@ -1,6 +1,6 @@
 {
   "name": "@gbrachetta/eslint-config",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "ESLint configuration for React-based projects based on airbnb and Prettier configs",
   "main": "index.js",
   "scripts": {
