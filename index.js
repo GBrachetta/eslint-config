@@ -46,6 +46,7 @@ module.exports = {
     'guard-for-in': 1,
     'import/newline-after-import': 1,
     'import/no-dynamic-require': 0,
+    'import/no-extraneous-dependencies': 0,
     'import/no-named-as-default': 0,
     'import/no-unresolved': 2,
     'import/no-webpack-loader-syntax': 0,
