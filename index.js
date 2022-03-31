@@ -75,6 +75,7 @@ module.exports = {
     'no-confusing-arrow': 0,
     'no-console': 1,
     'no-restricted-syntax': 1,
+    'no-trailing-spaces': 2,
     'no-unused-vars': 1,
     'no-use-before-define': 1,
     'no-var': 2,
@@ -108,6 +109,19 @@ module.exports = {
     'react/destructuring-assignment': 1,
     'react/display-name': 1,
     'react/forbid-prop-types': 0,
+    'react/function-component-definition': [
+      'error',
+      {
+        'namedComponents': [
+          'arrow-function',
+          'function-declaration'
+        ],
+        'unnamedComponents': 'arrow-function',
+        'defaultProps': 'arrow-function',
+        'destructuring': 'always',
+        'jsx': 'preserve'
+      }
+    ],
     'react/jsx-closing-tag-location': 0,
     'react/jsx-filename-extension': [
       1,
@@ -127,12 +141,12 @@ module.exports = {
     'react/require-default-props': 1,
     'react/self-closing-comp': 1,
     'react/sort-comp': 0,
-    'simple-import-sort/imports': 1,
+    'simple-import-sort/imports': 0,
     'sort-imports': [
       'warn',
       {
         ignoreCase: true,
-        ignoreDeclarationSort: false,
+        ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['all', 'multiple', 'single', 'none'],
         allowSeparatedGroups: true,

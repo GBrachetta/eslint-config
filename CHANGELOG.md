@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.0] — 2022-03-31
+
+- Add rule to allow for arrow functions in named components
+- Add rule disallowing trailing spaces
+- Disable `simple-import-sort`
+- `ignoreDeclarationSort` now defaults to `true` in `sort-imports`
+
 ## [1.6.0] — 2022-03-30
 
 - Bumped dependencies versions to latest
