@@ -30,7 +30,7 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'simple-import-sort'],
+  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'simple-import-sort', 'sort-keys-fix'],
   settings: {
     react: {
       version: 'detect',
@@ -137,6 +137,7 @@ module.exports = {
     'react/jsx-props-no-spreading': [1, {
       exceptions: ['Component']
     }],
+    'react/jsx-sort-props': 1,
     'react/jsx-uses-vars': 2,
     'react/no-array-index-key': 1,
     'react/no-unescaped-entities': 0,
@@ -158,6 +159,9 @@ module.exports = {
         allowSeparatedGroups: true,
       },
     ],
+    'sort-keys-fix/sort-keys-fix': [1, 'asc', {
+      natural: true
+    }],
     'space-before-blocks': 1,
     'space-before-function-paren': 1,
     'spaced-comment': [1, "always"],
