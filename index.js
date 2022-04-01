@@ -17,6 +17,7 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:jsx-a11y/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:sort/recommended',
     'prettier',
   ],
   globals: {
@@ -30,7 +31,7 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'simple-import-sort', 'sort-keys-fix'],
+  plugins: ['prettier', 'react', 'react-hooks', 'jsx-a11y', 'simple-import-sort', 'sort-keys-fix', 'sort'],
   settings: {
     react: {
       version: 'detect',
@@ -149,6 +150,7 @@ module.exports = {
     'react/self-closing-comp': 1,
     'react/sort-comp': 0,
     'simple-import-sort/imports': 0,
+    'sort/object-properties': 0,
     'sort-imports': [
       'warn',
       {

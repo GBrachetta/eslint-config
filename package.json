@@ -1,7 +1,7 @@
 {
   "name": "@gbrachetta/eslint-config",
-  "version": "1.8.0",
-  "description": "ESLint configuration for React-based projects based on airbnb and Prettier configs",
+  "version": "1.9.0",
+  "description": "Thorough ESLint configuration for React-based projects based on airbnb and Prettier configs with many additional rules such as autofixable sorting, etc.",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write **/*.js",
@@ -38,6 +38,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort": "^2.4.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2"
   },
   "peerDependencies": {
@@ -49,6 +50,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort": "^2.4.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2"
   },
   "repository": {
