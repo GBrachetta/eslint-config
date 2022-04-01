@@ -134,11 +134,15 @@ module.exports = {
     'react/jsx-first-prop-new-line': [2, 'multiline'],
     'react/jsx-key': 1,
     'react/jsx-no-target-blank': 1,
-    'react/jsx-props-no-spreading': [1, {html: 'ignore'}],
+    'react/jsx-props-no-spreading': [1, {
+      exceptions: ['Component']
+    }],
     'react/jsx-uses-vars': 2,
     'react/no-array-index-key': 1,
     'react/no-unescaped-entities': 0,
-    'react/prop-types': 1,
+    'react/prop-types': [1, {
+      ignore: ['Component', 'pageProps']
+    }],
     'react/react-in-jsx-scope': 0,
     'react/require-default-props': 1,
     'react/self-closing-comp': 1,

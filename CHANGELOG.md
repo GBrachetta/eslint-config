@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.3] — 2022-04-01
+
+- Add exception for `Component` in rule `react/jsx-props-no-spreading` to prevent `Next.js` linting warning on boilerplate
+- Ignore `Component` and `pageProps` in rule `react/prop-types` to prevent `Next.js` linting warning on boilerplate
+
 ## [1.7.2] — 2022-03-31
 
 - Remove error for `import/no-extraneous-dependencies` to stop requiring manually enter the rule when using propTypes.
