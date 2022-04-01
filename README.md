@@ -1,5 +1,7 @@
 # @gbrachetta/eslint-config
 
+[![npm](https://img.shields.io/npm/v/@gbrachetta/eslint-config)](https://www.npmjs.com/package/@gbrachetta/eslint-config)
+
 ESLint configuration for a React-based Project (Next.js, Gatsby, etc). Easy to install and configure, it follows the best code standards from airbnb and uses prettier configuration on code format. Integrated with my [prettier configuration](https://github.com/gbrachetta/prettier-config).
 
 ## Purpose
@@ -76,4 +78,4 @@ How to [contribute](/CONTRIBUTING.md) to this open source library
 
 ## License
 
-Copyright © 2021 [Guillermo Brachetta](https://www.gbrachetta.com). This library is licensed under the MIT [license](/LICENSE).
+Copyright © 2022 [Guillermo Brachetta](https://www.gbrachetta.com). This library is licensed under the MIT [license](/LICENSE).
