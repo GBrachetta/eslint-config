@@ -1,6 +1,6 @@
 {
   "name": "@gbrachetta/eslint-config",
-  "version": "1.9.0",
+  "version": "2.0.1",
   "description": "Thorough ESLint configuration for React-based projects based on airbnb and Prettier configs with many additional rules such as autofixable sorting, etc.",
   "main": "index.js",
   "scripts": {
