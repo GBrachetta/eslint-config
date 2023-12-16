@@ -1,5 +1,3 @@
-const prettierConfig = require('@gbrachetta/prettier-config');
-
 module.exports = {
   env: {
     browser: true,
@@ -42,14 +40,44 @@ module.exports = {
     'simple-import-sort',
     'sort-keys-fix',
     'sort',
+    '@stylistic',
   ],
   rules: {
+    '@stylistic/padding-line-between-statements': [
+      1,
+      {
+        blankLine: 'always',
+        next: ['return', 'export', 'function', 'block-like'],
+        prev: '*',
+      },
+      {
+        blankLine: 'always',
+        next: '*',
+        prev: ['default', 'directive', 'const', 'let', 'block-like'],
+      },
+      {
+        blankLine: 'any',
+        next: ['case'],
+        prev: ['case'],
+      },
+      {
+        blankLine: 'any',
+        next: ['let'],
+        prev: ['let'],
+      },
+      {
+        blankLine: 'any',
+        next: ['const'],
+        prev: ['const'],
+      },
+    ],
     'arrow-body-style': 0,
     'arrow-spacing': 1,
     camelcase: 1,
     'class-methods-use-this': 0,
     'consistent-return': 0,
     'css-import-order/css-import-order': 1,
+    'global-require': 0,
     'guard-for-in': 1,
     'import/newline-after-import': 1,
     'import/no-dynamic-require': 0,
@@ -90,37 +118,30 @@ module.exports = {
     'max-len': 0,
     'newline-per-chained-call': 1,
     'no-confusing-arrow': 0,
-    'no-console': 1,
+    'no-console': 0,
     'no-restricted-syntax': 1,
     'no-trailing-spaces': 2,
     'no-unused-vars': 1,
     'no-use-before-define': 1,
     'no-var': 2,
-    'padding-line-between-statements': [
+    'prefer-template': 2,
+    'prettier/prettier': [
       1,
       {
-        blankLine: 'always',
-        next: ['return', 'export', 'function', 'block-like'],
-        prev: '*',
-      },
-      {
-        blankLine: 'always',
-        next: '*',
-        prev: ['case', 'default', 'directive', 'const', 'let', 'block-like'],
-      },
-      {
-        blankLine: 'any',
-        next: ['let'],
-        prev: ['let'],
-      },
-      {
-        blankLine: 'any',
-        next: ['const'],
-        prev: ['const'],
+        arrowParens: 'always',
+        bracketSameLine: false,
+        bracketSpacing: true,
+        endOfLine: 'lf',
+        jsxSingleQuote: false,
+        parser: 'babel',
+        printWidth: 80,
+        requirePragma: false,
+        semi: true,
+        singleQuote: false,
+        tabWidth: 2,
+        trailingComma: 'all',
       },
     ],
-    'prefer-template': 2,
-    'prettier/prettier': [1, prettierConfig],
     'react/button-has-type': 1,
     'react/destructuring-assignment': 1,
     'react/display-name': 1,

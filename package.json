@@ -1,6 +1,6 @@
 {
   "name": "@gbrachetta/eslint-config",
-  "version": "2.3.0",
+  "version": "2.4.3",
   "description": "Thorough ESLint configuration for React-based projects based on airbnb and Prettier configs with many additional rules such as autofixable sorting, etc.",
   "main": "index.js",
   "scripts": {
@@ -26,36 +26,38 @@
   "prettier": "@gbrachetta/prettier-config",
   "dependencies": {
     "@gbrachetta/prettier-config": "^1.1.0",
-    "eslint": "^8.52.0",
-    "prettier": "3.0.3"
+    "eslint": "^8.56.0",
+    "prettier": "3.1.1"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.5.1",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-css-import-order": "^1.1.0",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort": "^2.11.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "prettier": "^3.0.3"
+    "prettier": "^3.1.1"
   },
   "peerDependencies": {
+    "@stylistic/eslint-plugin": "^1.5.1",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-css-import-order": "^1.1.0",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort": "^2.11.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "prettier": "3.0.3"
+    "prettier": "3.1.1"
   },
   "repository": {
     "type": "git",

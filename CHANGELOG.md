@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.4.3] — 2023-12-16
+
+- Allow `global-require`
+- Pass prettier object in the rules
+
+## [2.4.2] — 2023-12-16
+
+- Allow `console.log`
+
+## [2.4.1] — 2023-12-16
+
+- Correctly allow padding lines in `case`
+
+## [2.4.0] — 2023-12-16
+
+- Use '@stylistic/eslint-plugin for stylistic rules deprecated in eslint core
+
 ## [2.0.6] — 2023-07-11
 
 - Troubleshooting imports
